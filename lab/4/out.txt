@@ -1,0 +1,8 @@
+total 8
+drwxrwxrwx 1 martin martin  512 Feb 22 23:32 .
+drwxrwxrwx 1 martin martin  512 Feb 22 17:48 ..
+-rwxrwxrwx 1 martin martin  154 Feb 19 16:20 Makefile
+-rwxrwxrwx 1 martin martin  695 Feb 22 23:31 copy.c
+-rwxrwxrwx 1 martin martin    0 Feb 22  2021 in.txt
+-rwxrwxrwx 1 martin martin 1076 Feb 22 23:31 lab4.c
+-rwxrwxrwx 1 martin martin  366 Feb 22 23:32 out.txt
