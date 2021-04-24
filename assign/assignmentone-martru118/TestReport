@@ -1,0 +1,41 @@
+*********************************
+     make solution
+********************************
+cc -Wall -g   -c -o parse.o parse.c
+cc -Wall -g   -c -o exec.o exec.c
+cc -Wall -g   -c -o main.o main.c
+cc -o mysh parse.o exec.o main.o
+*********************************
+     test single program
+            ps -a
+*********************************
+   PID TTY          TIME CMD
+ 21256 pts/21   01:03:54 tensorboard
+ 26523 pts/0    00:00:00 vim
+ 46442 pts/11   00:00:00 server
+ 46445 pts/5    00:00:00 client
+216022 pts/1    00:06:58 mysh
+216025 pts/1    00:06:57 mysh
+216030 pts/1    00:06:58 mysh
+216033 pts/1    00:07:01 memcheck-amd64-
+216036 pts/1    00:06:59 mysh
+216039 pts/1    00:06:59 mysh
+218267 pts/1    00:00:00 bash
+219457 pts/1    00:00:01 mysh
+219460 pts/1    00:00:01 mysh
+219464 pts/1    00:00:01 mysh
+219467 pts/1    00:00:01 memcheck-amd64-
+219470 pts/1    00:00:01 mysh
+219473 pts/1    00:00:01 mysh
+219498 pts/1    00:00:00 test
+219499 pts/1    00:00:00 assign1
+219514 pts/1    00:00:00 mysh
+219515 pts/1    00:00:00 ps
+325054 pts/20   00:00:00 make
+325055 pts/20   00:01:05 docker
+325447 pts/0    00:01:43 jupyterhub
+390196 pts/1    00:00:00 vim
+392940 pts/0    00:00:00 vim
+425538 pts/18   00:00:00 su
+425539 pts/18   00:00:00 bash
+End of tests

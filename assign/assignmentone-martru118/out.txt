@@ -1,0 +1,10 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 12:42 ?        00:00:00 /init
+root        89     1  0 13:46 ?        00:00:00 /init
+root        90    89  0 13:46 ?        00:00:00 /init
+martin      91    90  0 13:46 pts/1    00:00:00 -bash
+root       231     1  0 15:41 ?        00:00:00 /init
+root       232   231  0 15:41 ?        00:00:00 /init
+martin     233   232  0 15:41 pts/0    00:00:00 -bash
+martin     275   233  0 16:38 pts/0    00:00:00 ./mysh
+martin     278   275  0 16:39 pts/0    00:00:00 ps -aef

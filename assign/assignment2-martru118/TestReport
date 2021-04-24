@@ -1,0 +1,29 @@
+*********************************
+     make solution
+********************************
+rm: cannot remove ‘client’: No such file or directory
+rm: cannot remove ‘server’: No such file or directory
+rm: cannot remove ‘*.o’: No such file or directory
+cc -Wall -g   -c -o server.o server.c
+cc -Wall -g   -c -o lib.o lib.c
+cc -o server server.o lib.o
+cc -Wall -g   -c -o client.o client.c
+cc -o client client.o lib.o
+*********************************
+     student client one
+********************************
+*********************************
+     student client two
+********************************
+Successfully connected to server.
+
+Successfully connected to server.
+
+*********************************
+     test client one
+********************************
+*********************************
+     test client two
+********************************
+*******************************
+End of tests
